@@ -588,6 +588,28 @@ input:-webkit-autofill:active {
   margin: 0 auto;
   padding: 16px 32px;
 }
+.modal-form-comment:hover,
+.modal-form-comment:focus {
+  border-color: var(--cl-primary_brand);
+}
+.modal-form-input:hover,
+.modal-form-input:focus {
+  border-color: var(--cl-primary_brand);
+}
+.modal-form-input:hover,
+.modal-form-input:focus ~ .modal-form-icon {
+  fill: var(--cl-primary_brand);
+}
+.modal-btn:focus,
+.modal-btn:hover {
+  background-color: var(--cl-pressed_state);
+  border: none;
+  color: var(--cl-white_background);
+}
+.modal-btn:focus,
+.modal-btn:hover ~ .modal-form-icon {
+  fill: var(--cl-primary_brand);
+}
 
 .label-checkbox {
   position: relative;
